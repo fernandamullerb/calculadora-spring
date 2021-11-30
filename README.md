@@ -1,6 +1,6 @@
 # Projeto Calculadora
 
-Construção de uma API simples para somar, multiplicar, dividir e subtrair, desenvolvida com Java, Spring Boot e Lombok.
+Construção de uma API simples para somar, multiplicar, dividir e subtrair, desenvolvida com Java, Spring Boot, Lombok e banco de dados H2.
 <br><br>
 
 <img src="https://github.com/fernandamullerb/calculadora-spring/blob/main/Api%20Documentation.png" alt="endpoints"/>
