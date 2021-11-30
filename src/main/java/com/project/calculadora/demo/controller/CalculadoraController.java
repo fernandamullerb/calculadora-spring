@@ -11,7 +11,6 @@ import com.project.calculadora.demo.service.CalculadoraService;
 import static com.project.calculadora.demo.mapper.CalculadoraMapper.mapperCalculadora;
 
 @RestController
-@RequestMapping
 public class CalculadoraController {
 	
 	@Autowired
