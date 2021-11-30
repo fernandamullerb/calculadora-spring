@@ -1,4 +1,4 @@
-package com.project.calculadora.demo.config;
+package br.com.calculadora.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +17,7 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.project.calculadora.demo"))
+                .apis(RequestHandlerSelectors.basePackage("br.com.calculadora"))
                 .paths(PathSelectors.any())
                 .build();
     }

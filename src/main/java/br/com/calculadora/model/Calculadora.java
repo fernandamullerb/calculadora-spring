@@ -1,6 +1,6 @@
-package com.project.calculadora.demo.model;
+package br.com.calculadora.model;
 
-import com.project.calculadora.demo.dto.CalculadoraDto;
+import br.com.calculadora.dto.CalculadoraDto;
 import lombok.*;
 
 import java.math.BigDecimal;

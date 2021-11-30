@@ -1,4 +1,4 @@
-package com.project.calculadora.demo.dto;
+package br.com.calculadora.dto;
 	
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;

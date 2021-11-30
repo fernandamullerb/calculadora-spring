@@ -1,7 +1,7 @@
-package com.project.calculadora.demo.port;
+package br.com.calculadora.port;
 
-import com.project.calculadora.demo.model.Calculadora;
-import com.project.calculadora.demo.model.Resultado;
+import br.com.calculadora.model.Calculadora;
+import br.com.calculadora.model.Resultado;
 
 public interface CalculadoraPort {
 
@@ -12,4 +12,5 @@ public interface CalculadoraPort {
     public Resultado divide(Calculadora calculadora);
 
     public Resultado subtrai(Calculadora calculadora);
+
 }

@@ -1,4 +1,4 @@
-package com.project.calculadora.demo.config;
+package br.com.calculadora.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

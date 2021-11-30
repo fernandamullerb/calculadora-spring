@@ -1,7 +1,7 @@
-package com.project.calculadora.demo.mapper;
+package br.com.calculadora.mapper;
 
-import com.project.calculadora.demo.model.Calculadora;
-import com.project.calculadora.demo.dto.CalculadoraDto;
+import br.com.calculadora.dto.CalculadoraDto;
+import br.com.calculadora.model.Calculadora;
 
 public class CalculadoraMapper {
 
