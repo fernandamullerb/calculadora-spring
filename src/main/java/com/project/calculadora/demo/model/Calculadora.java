@@ -1,27 +1,22 @@
 package com.project.calculadora.demo.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import com.project.calculadora.demo.dto.CalculadoraDto;
+import lombok.*;
 
-@Data 
+import java.math.BigDecimal;
+
+@Data
 @Builder  
 @NoArgsConstructor  
 @AllArgsConstructor 
 public class Calculadora {
-		private int var1;
-		private int var2;
-		public int getVar1() {
-			return var1;
-		}
-		public void setVar1(int var1) {
-			this.var1 = var1;
-		}
-		public int getVar2() {
-			return var2;
-		}
-		public void setVar2(int var2) {
-			this.var2 = var2;
-		}
+
+	private BigDecimal primeiroValor;
+	private BigDecimal segundoValor;
+
+	public Calculadora(CalculadoraDto calculadoraDto) {
+		this.primeiroValor = calculadoraDto.getPrimeiroValor();
+		this.segundoValor = calculadoraDto.getSegundoValor();
+	}
+
 }
